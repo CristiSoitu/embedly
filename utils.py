@@ -177,3 +177,4 @@ def viz_umap_plot(data_df, embeddings_col_0 = 'umap_embeddings_0', embeddings_co
 
         return True, bbox, children, direction
     app.run_server(debug=True)
+#
