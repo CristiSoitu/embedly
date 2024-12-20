@@ -7,8 +7,8 @@ Embedly uses plotly and dash to plot the embeddings. Any stylistic changes to th
 ## Features
 
 - Visualizes embeddings using UMAP
-- Convert images to thumbnails if they are too large
-- Convert thumbnails to base64 to add to a pandas 
+- Converts images to thumbnails if they are too large
+- Converts thumbnails to base64 to add to a pandas 
 
 
 ## Usage
