@@ -1,6 +1,5 @@
 import argparse
 import pandas as pd
-import toml
 import base64
 from PIL import Image  # Pillow library for image handling
 import io
@@ -135,8 +134,6 @@ def viz_umap_plot(df_path = '../data/embeddings.csv', embeddings_col_0 = 'umap_e
 
 
 if __name__ == '__main__':
-
-    #config = toml.load('config.toml')
 
     parser = argparse.ArgumentParser(description='VizuMap')
     parser.add_argument('--input_file', type=str, default='../data/embeddings.csv', help='Path to the input file')
