@@ -15,7 +15,7 @@ The behavior of the visualizer can be customized via command line arguments.
 If you already have the UMAP embeddings and base64 thumbnails loaded into your dataframe, run the script directly from the command line:
 
 ```bash 
-python vizumap.py --input_file PATH_TO_EMBEDDINGS \
+python visualizer.py --input_file PATH_TO_EMBEDDINGS \
                   --embeddings_col_0 COLUMN_NAME_X \
                   --embeddings_col_1 COLUMN_NAME_Y \
                   --url_col IMAGE_URL_COLUMN \
