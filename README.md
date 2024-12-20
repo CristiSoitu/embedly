@@ -2,12 +2,14 @@
 # Embedly
 This is a set of Python scripts to help one visualize low-dimensional embeddings of images. The script needs a .csv or other sort of table that can be loaded into pandas. This dataframe should have some x and y axis for each datapoint (it doesn't have to be embeddings), a base64 thumbnail and any other columns to be displayed. Illustration is done on a mock dataset which consists of a subset of 1000 MNIST images.
 
+Embedly uses plotly and dash to plot the embeddings. Any stylistic changes to the plot have to be implemented by editing `visualizer.py`.
+
 ## Features
 
 - Visualizes embeddings using UMAP
 - Convert images to thumbnails if they are too large
 - Convert thumbnails to base64 to add to a pandas 
-- (to add) Extract embeddings using Resnet or other networks
+
 
 ## Usage
 
@@ -49,6 +51,12 @@ Otherwise, there is a `workflow.ipynb` script that extracts the umap embeddings 
 
 ## Demo
 ![Example Visualization](assets/example1.gif)
+
+
+## To do list:
+- Extract embeddings using Resnet or other models.
+- Populate `requirements.txt` and `setup.py`.
+
 
 
 
