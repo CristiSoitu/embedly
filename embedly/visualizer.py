@@ -10,8 +10,6 @@ import pandas as pd
 import webbrowser
 
 
-
-
 def viz_umap_plot(df_path = '../data/embeddings.csv', embeddings_col_0 = 'umap_embeddings_0', embeddings_col_1 = 'umap_embeddings_1', url_col = 'url', display_columns = ['name'], width_px = 128, height_px = 128, cluster_col = None, display_fraction=1, open_browser=True):
     '''
     Visualize UMAP embeddings with plotly. Hover over the points to see the thumbnails of the images.
