@@ -55,8 +55,6 @@ Otherwise, there is a `workflow.ipynb` script that extracts the umap embeddings 
 
 ## To do list:
 - Extract embeddings using Resnet or other models.
-- Populate `requirements.txt` and `setup.py`.
-
 
 
 
